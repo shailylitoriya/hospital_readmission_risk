@@ -4,9 +4,9 @@ This project predicts the likelihood of patient readmission within 30 days using
 
 ## Structure
 
-- `data`: Raw dataset
-- `notebooks`: Jupyter notebook with EDA and model training
-- `outputs/`: Saved plots from EDA and model evaluation
+- `diabetics.csv`: Raw dataset
+- `Hospital Readmission Project.ipynb`: Jupyter notebook with EDA and model training
+- `outputs`: Saved plots from EDA and model evaluation
 
 ## Key Steps
 
