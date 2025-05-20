@@ -41,7 +41,7 @@ This project predicts the likelihood of patient readmission within 30 days using
 ### 4. **Model Building**
 - Used `XGBoostClassifier` with class imbalance handling (`scale_pos_weight`)
 - Applied SMOTE for oversampling the minority class
-- Performed hyperparameter tuning using `GridSearchCV` with StratifiedKFold
+- Performed hyperparameter tuning using `GridSearchCV`.
 
 ### 5. **Model Evaluation**
 - Evaluated model using:
@@ -50,11 +50,6 @@ This project predicts the likelihood of patient readmission within 30 days using
 - Plotted Precision-Recall vs. Threshold curve
 
 ---
-
-## Results
-
-- **Final Model:** XGBoost (with SMOTE + Hyperparameter Tuning)
-- **Threshold Applied:** 0.6
 
 ## Final Model Performance (Threshold = 0.6)
 
